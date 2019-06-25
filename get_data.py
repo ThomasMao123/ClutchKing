@@ -14,7 +14,7 @@ def openDriver():
     options.add_argument('--incognito')
     driver = Chrome(chrome_options=options)
 
-
+openDriver()
 header = 'name, winrate, gold, xp, kills, cs, jungle, matches'
 
 def get_names(bs_tag):
@@ -44,7 +44,7 @@ def get_columns(bs_tag):
     return [name, winrate, gold, xp, kills, cs, jungle, matches]
 
 def get_all_names():
-    openDriver()
+    
     url0 = "https://u.gg/lol/champions/xayah/matchups?allChampions=true&rank=overall"
     driver.get(url0)
     html_source0 = driver.page_source
