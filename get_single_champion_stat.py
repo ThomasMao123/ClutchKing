@@ -1,9 +1,26 @@
 import pandas as pd 
 import numpy as np 
 
+from bs4 import BeautifulSoup
+import re
+
+from seleniumrequests import Chrome
+from selenium.webdriver.chrome.options import Options
+
+def openDriver():
+    global driver
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--incognito')
+    driver = Chrome(chrome_options=options)
+
+openDriver()
+
+
 df = pd.read_csv("champion_names.csv")
 arr = np.array(df)
-champion_names = [x[0] for x in arr]
+champion_names = [x[0].lower() for x in arr]
 
 roles = ('top', 'jungle', 'middle', 'adc', 'support')
 
