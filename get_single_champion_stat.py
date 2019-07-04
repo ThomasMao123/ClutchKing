@@ -26,8 +26,17 @@ def get_stats(soup):
 
     return  [win_rate[0], pick[0], ban[0], matches]    
 
-url = " "
-driver.get(url)
-html_source = driver.page_source
-soup = BeautifulSoup(html_source)
-stats = get_stats(soup)
+to_save = []
+
+for name in champion_names:
+    for role in roles:
+        url = "https://u.gg/lol/champions/" + name + "/build?role=" + role + "&rank=overall"
+        driver.get(url)
+        html_source = driver.page_source
+        soup = BeautifulSoup(html_source)
+        stats = get_stats(soup)
+        stats.insert(0, name)
+        to_save.append(stats)
+        
+        
+        
