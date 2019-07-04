@@ -24,7 +24,7 @@ def get_stats(soup):
     matches = [x.find_all('div', {'class': "value"}) for x in matches]
     matches = str(matches[0][0]).split('>')[1].split('<')[0] 
 
-    return  win_rate[0], pick[0], ban[0], matches    
+    return  [win_rate[0], pick[0], ban[0], matches]    
 
 url = " "
 driver.get(url)
