@@ -25,3 +25,9 @@ def get_stats(soup):
     matches = str(matches[0][0]).split('>')[1].split('<')[0] 
 
     return  win_rate[0], pick[0], ban[0], matches    
+
+url = " "
+driver.get(url)
+html_source = driver.page_source
+soup = BeautifulSoup(html_source)
+stats = get_stats(soup)
