@@ -45,7 +45,7 @@ def get_columns(bs_tag):
 
 def get_all_names():
     
-    url0 = "https://u.gg/lol/champions/xayah/matchups?allChampions=true&rank=overall"
+    url0 = "https://u.gg/lol/champions"
     driver.get(url0)
     html_source0 = driver.page_source
     soup0 = BeautifulSoup(html_source0)    
