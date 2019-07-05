@@ -1,0 +1,726 @@
+Name,Win rate,Pick rate,Ban rate,Role
+aatrox,48.31%,7.0%,23.5%,top
+aatrox,44.89%,1.3%,23.5%,jungle
+aatrox,50.27%,1.7%,23.5%,middle
+aatrox,40.05%,< 0.1%,23.5%,adc
+aatrox,35.57%,< 0.1%,23.5%,support
+ahri,51.12%,0.1%,7.1%,top
+ahri,41.08%,< 0.1%,7.1%,jungle
+ahri,52.43%,10.3%,7.1%,middle
+ahri,47.9%,< 0.1%,7.1%,adc
+ahri,48.76%,0.1%,7.1%,support
+akali,43.94%,2.1%,7.6%,top
+akali,28.94%,< 0.1%,7.6%,jungle
+akali,42.04%,4.8%,7.6%,middle
+akali,33.69%,< 0.1%,7.6%,adc
+akali,31.9%,< 0.1%,7.6%,support
+alistar,39.3%,< 0.1%,1.1%,top
+alistar,37.24%,< 0.1%,1.1%,jungle
+alistar,40.62%,< 0.1%,1.1%,middle
+alistar,36.73%,< 0.1%,1.1%,adc
+alistar,47.29%,3.6%,1.1%,support
+amumu,46.15%,0.1%,2.4%,top
+amumu,53.33%,7.0%,2.4%,jungle
+amumu,42.95%,< 0.1%,2.4%,middle
+amumu,37.95%,< 0.1%,2.4%,adc
+amumu,46.78%,0.1%,2.4%,support
+anivia,53.44%,0.1%,0.6%,top
+anivia,28.83%,< 0.1%,0.6%,jungle
+anivia,52.08%,2.0%,0.6%,middle
+anivia,48.88%,< 0.1%,0.6%,adc
+anivia,45.59%,0.2%,0.6%,support
+annie,49.25%,0.1%,1.0%,top
+annie,33.82%,< 0.1%,1.0%,jungle
+annie,50.71%,2.3%,1.0%,middle
+annie,47.06%,< 0.1%,1.0%,adc
+annie,46.18%,0.4%,1.0%,support
+ashe,46.37%,0.1%,1.3%,top
+ashe,34.84%,< 0.1%,1.3%,jungle
+ashe,46.58%,0.1%,1.3%,middle
+ashe,51.65%,13.4%,1.3%,adc
+ashe,43.25%,0.3%,1.3%,support
+aurelion sol,44.51%,< 0.1%,0.3%,top
+aurelion sol,36.09%,< 0.1%,0.3%,jungle
+aurelion sol,49.37%,0.6%,0.3%,middle
+aurelion sol,38.83%,< 0.1%,0.3%,adc
+aurelion sol,34.16%,< 0.1%,0.3%,support
+azir,45.37%,0.1%,0.5%,top
+azir,32.23%,< 0.1%,0.5%,jungle
+azir,47.12%,2.2%,0.5%,middle
+azir,41.72%,< 0.1%,0.5%,adc
+azir,38.69%,< 0.1%,0.5%,support
+bard,43.67%,< 0.1%,0.3%,top
+bard,35.32%,< 0.1%,0.3%,jungle
+bard,41.35%,< 0.1%,0.3%,middle
+bard,41.04%,< 0.1%,0.3%,adc
+bard,50.25%,2.6%,0.3%,support
+blitzcrank,38.85%,< 0.1%,15.7%,top
+blitzcrank,36.45%,< 0.1%,15.7%,jungle
+blitzcrank,37.57%,< 0.1%,15.7%,middle
+blitzcrank,38.99%,< 0.1%,15.7%,adc
+blitzcrank,50.37%,8.8%,15.7%,support
+brand,49.22%,0.1%,12.4%,top
+brand,47.21%,0.1%,12.4%,jungle
+brand,50.45%,1.7%,12.4%,middle
+brand,49.21%,0.1%,12.4%,adc
+brand,52.3%,6.6%,12.4%,support
+braum,38.26%,< 0.1%,1.8%,top
+braum,32.49%,< 0.1%,1.8%,jungle
+braum,39.36%,< 0.1%,1.8%,middle
+braum,42.97%,< 0.1%,1.8%,adc
+braum,46.97%,4.1%,1.8%,support
+caitlyn,44.85%,0.1%,10.5%,top
+caitlyn,25.33%,< 0.1%,10.5%,jungle
+caitlyn,42.86%,0.2%,10.5%,middle
+caitlyn,49.95%,19.8%,10.5%,adc
+caitlyn,31.33%,< 0.1%,10.5%,support
+camille,49.44%,2.6%,1.1%,top
+camille,46.1%,0.6%,1.1%,jungle
+camille,50.38%,0.4%,1.1%,middle
+camille,49.6%,< 0.1%,1.1%,adc
+camille,43.92%,< 0.1%,1.1%,support
+cassiopeia,49.58%,0.1%,0.4%,top
+cassiopeia,37.5%,< 0.1%,0.4%,jungle
+cassiopeia,48.96%,1.4%,0.4%,middle
+cassiopeia,51.36%,0.1%,0.4%,adc
+cassiopeia,45.47%,< 0.1%,0.4%,support
+cho'gath,49.11%,2.4%,1.0%,top
+cho'gath,49.01%,0.4%,1.0%,jungle
+cho'gath,51.12%,0.6%,1.0%,middle
+cho'gath,45.21%,< 0.1%,1.0%,adc
+cho'gath,44.41%,0.1%,1.0%,support
+corki,50.17%,0.1%,0.3%,top
+corki,40.23%,< 0.1%,0.3%,jungle
+corki,50.59%,1.9%,0.3%,middle
+corki,48.55%,0.2%,0.3%,adc
+corki,35.06%,< 0.1%,0.3%,support
+darius,49.74%,11.3%,39.6%,top
+darius,40.12%,< 0.1%,39.6%,jungle
+darius,50.06%,0.2%,39.6%,middle
+darius,44.46%,< 0.1%,39.6%,adc
+darius,39.19%,< 0.1%,39.6%,support
+diana,51.34%,0.2%,4.8%,top
+diana,50.94%,0.8%,4.8%,jungle
+diana,54.77%,5.1%,4.8%,middle
+diana,45.6%,< 0.1%,4.8%,adc
+diana,43.02%,< 0.1%,4.8%,support
+dr. mundo,50.57%,2.6%,1.2%,top
+dr. mundo,49.33%,0.3%,1.2%,jungle
+dr. mundo,48.09%,< 0.1%,1.2%,middle
+dr. mundo,39.6%,< 0.1%,1.2%,adc
+dr. mundo,41.74%,0.1%,1.2%,support
+draven,48.97%,0.1%,23.5%,top
+draven,32.23%,< 0.1%,23.5%,jungle
+draven,49.22%,0.1%,23.5%,middle
+draven,50.11%,8.5%,23.5%,adc
+draven,35.38%,< 0.1%,23.5%,support
+ekko,46.82%,0.4%,2.0%,top
+ekko,51.26%,0.9%,2.0%,jungle
+ekko,50.71%,4.6%,2.0%,middle
+ekko,48.2%,< 0.1%,2.0%,adc
+ekko,44.51%,< 0.1%,2.0%,support
+elise,46.4%,< 0.1%,3.3%,top
+elise,50.76%,4.8%,3.3%,jungle
+elise,46.32%,< 0.1%,3.3%,middle
+elise,41.76%,< 0.1%,3.3%,adc
+elise,42.77%,< 0.1%,3.3%,support
+evelynn,28.79%,< 0.1%,10.7%,top
+evelynn,49.88%,5.7%,10.7%,jungle
+evelynn,40.77%,< 0.1%,10.7%,middle
+evelynn,28.07%,< 0.1%,10.7%,adc
+evelynn,40.62%,< 0.1%,10.7%,support
+ezreal,44.59%,0.3%,10.2%,top
+ezreal,37.01%,0.1%,10.2%,jungle
+ezreal,44.1%,1.6%,10.2%,middle
+ezreal,47.68%,23.0%,10.2%,adc
+ezreal,39.06%,0.2%,10.2%,support
+fiddlesticks,43.34%,0.1%,1.2%,top
+fiddlesticks,50.11%,1.1%,1.2%,jungle
+fiddlesticks,49.53%,0.2%,1.2%,middle
+fiddlesticks,43.03%,< 0.1%,1.2%,adc
+fiddlesticks,50.45%,2.4%,1.2%,support
+fiora,49.46%,5.6%,5.0%,top
+fiora,42.6%,< 0.1%,5.0%,jungle
+fiora,49.51%,0.2%,5.0%,middle
+fiora,44.92%,< 0.1%,5.0%,adc
+fiora,35.36%,< 0.1%,5.0%,support
+fizz,48.59%,0.2%,11.7%,top
+fizz,43.14%,0.1%,11.7%,jungle
+fizz,51.7%,6.9%,11.7%,middle
+fizz,45.83%,< 0.1%,11.7%,adc
+fizz,44.6%,< 0.1%,11.7%,support
+galio,42.94%,0.1%,0.3%,top
+galio,35.32%,< 0.1%,0.3%,jungle
+galio,45.91%,0.4%,0.3%,middle
+galio,45.99%,< 0.1%,0.3%,adc
+galio,43.79%,1.2%,0.3%,support
+gangplank,48.48%,2.9%,0.7%,top
+gangplank,27.65%,< 0.1%,0.7%,jungle
+gangplank,48.42%,0.5%,0.7%,middle
+gangplank,36.34%,< 0.1%,0.7%,adc
+gangplank,33.64%,< 0.1%,0.7%,support
+garen,52.63%,10.3%,6.8%,top
+garen,43.9%,0.1%,6.8%,jungle
+garen,52.99%,0.4%,6.8%,middle
+garen,40.4%,< 0.1%,6.8%,adc
+garen,38.21%,0.1%,6.8%,support
+gnar,48.36%,3.3%,0.8%,top
+gnar,35.35%,< 0.1%,0.8%,jungle
+gnar,46.02%,< 0.1%,0.8%,middle
+gnar,44.19%,< 0.1%,0.8%,adc
+gnar,32.72%,< 0.1%,0.8%,support
+gragas,48.43%,0.2%,0.4%,top
+gragas,48.07%,3.6%,0.4%,jungle
+gragas,51.21%,0.3%,0.4%,middle
+gragas,42.93%,< 0.1%,0.4%,adc
+gragas,48.04%,0.2%,0.4%,support
+graves,48.3%,0.2%,0.4%,top
+graves,49.28%,2.8%,0.4%,jungle
+graves,50.18%,< 0.1%,0.4%,middle
+graves,47.52%,0.1%,0.4%,adc
+graves,40.77%,< 0.1%,0.4%,support
+hecarim,48.97%,0.2%,10.0%,top
+hecarim,51.78%,8.2%,10.0%,jungle
+hecarim,44.31%,< 0.1%,10.0%,middle
+hecarim,30.26%,< 0.1%,10.0%,adc
+hecarim,35.48%,< 0.1%,10.0%,support
+heimerdinger,50.7%,0.7%,1.1%,top
+heimerdinger,35.04%,< 0.1%,1.1%,jungle
+heimerdinger,51.66%,1.2%,1.1%,middle
+heimerdinger,51.89%,0.1%,1.1%,adc
+heimerdinger,45.84%,0.1%,1.1%,support
+illaoi,52.15%,6.1%,13.6%,top
+illaoi,35.84%,< 0.1%,13.6%,jungle
+illaoi,50.31%,0.1%,13.6%,middle
+illaoi,42.11%,< 0.1%,13.6%,adc
+illaoi,40.17%,0.1%,13.6%,support
+irelia,45.34%,5.1%,8.5%,top
+irelia,34.26%,< 0.1%,8.5%,jungle
+irelia,45.1%,4.0%,8.5%,middle
+irelia,45.92%,0.1%,8.5%,adc
+irelia,35.56%,< 0.1%,8.5%,support
+ivern,35.84%,< 0.1%,0.2%,top
+ivern,50.48%,0.6%,0.2%,jungle
+ivern,32.03%,< 0.1%,0.2%,middle
+ivern,16%,< 0.1%,0.2%,adc
+ivern,39.77%,< 0.1%,0.2%,support
+janna,43.78%,< 0.1%,0.4%,top
+janna,26.13%,< 0.1%,0.4%,jungle
+janna,42.78%,< 0.1%,0.4%,middle
+janna,31.5%,< 0.1%,0.4%,adc
+janna,52.71%,5.4%,0.4%,support
+jarvan iv,48.49%,0.3%,3.5%,top
+jarvan iv,52.52%,9.5%,3.5%,jungle
+jarvan iv,51.05%,0.1%,3.5%,middle
+jarvan iv,48.99%,< 0.1%,3.5%,adc
+jarvan iv,47.81%,0.1%,3.5%,support
+jax,49.83%,6.5%,19.6%,top
+jax,52.16%,8.4%,19.6%,jungle
+jax,51%,0.1%,19.6%,middle
+jax,44.82%,< 0.1%,19.6%,adc
+jax,38.74%,< 0.1%,19.6%,support
+jayce,45.74%,1.7%,1.0%,top
+jayce,40.16%,< 0.1%,1.0%,jungle
+jayce,47.61%,0.7%,1.0%,middle
+jayce,41.01%,< 0.1%,1.0%,adc
+jayce,37.24%,< 0.1%,1.0%,support
+jhin,46.5%,0.1%,4.0%,top
+jhin,32.57%,< 0.1%,4.0%,jungle
+jhin,47.73%,0.3%,4.0%,middle
+jhin,50.28%,14.2%,4.0%,adc
+jhin,37.21%,< 0.1%,4.0%,support
+jinx,47.78%,< 0.1%,4.5%,top
+jinx,36.9%,< 0.1%,4.5%,jungle
+jinx,52.85%,< 0.1%,4.5%,middle
+jinx,53.1%,17.9%,4.5%,adc
+jinx,37.19%,< 0.1%,4.5%,support
+kai'sa,44.82%,0.1%,7.2%,top
+kai'sa,44.64%,0.3%,7.2%,jungle
+kai'sa,44.52%,0.1%,7.2%,middle
+kai'sa,48.49%,18.8%,7.2%,adc
+kai'sa,38.48%,< 0.1%,7.2%,support
+kalista,45.5%,< 0.1%,0.2%,top
+kalista,40.54%,< 0.1%,0.2%,jungle
+kalista,41.97%,< 0.1%,0.2%,middle
+kalista,44.45%,1.3%,0.2%,adc
+kalista,30.85%,< 0.1%,0.2%,support
+karma,49%,1.9%,7.2%,top
+karma,41.26%,< 0.1%,7.2%,jungle
+karma,50%,1.6%,7.2%,middle
+karma,48.23%,0.1%,7.2%,adc
+karma,49.2%,8.9%,7.2%,support
+karthus,49.5%,0.2%,1.9%,top
+karthus,49.77%,2.4%,1.9%,jungle
+karthus,49.3%,0.6%,1.9%,middle
+karthus,51.53%,0.1%,1.9%,adc
+karthus,45.31%,0.1%,1.9%,support
+kassadin,48.2%,0.1%,2.1%,top
+kassadin,37.19%,< 0.1%,2.1%,jungle
+kassadin,49.5%,3.0%,2.1%,middle
+kassadin,37.18%,< 0.1%,2.1%,adc
+kassadin,36.98%,< 0.1%,2.1%,support
+katarina,49.8%,0.1%,7.9%,top
+katarina,37.21%,< 0.1%,7.9%,jungle
+katarina,50.41%,9.2%,7.9%,middle
+katarina,46.85%,< 0.1%,7.9%,adc
+katarina,40.22%,0.1%,7.9%,support
+kayle,51.34%,3.2%,1.4%,top
+kayle,46.92%,0.1%,1.4%,jungle
+kayle,50.57%,0.4%,1.4%,middle
+kayle,46.93%,< 0.1%,1.4%,adc
+kayle,42.75%,0.1%,1.4%,support
+kayn,43.23%,0.2%,14.9%,top
+kayn,49.83%,15.5%,14.9%,jungle
+kayn,46.89%,0.1%,14.9%,middle
+kayn,39.07%,< 0.1%,14.9%,adc
+kayn,36.14%,< 0.1%,14.9%,support
+kennen,51.65%,3.1%,1.4%,top
+kennen,34.28%,< 0.1%,1.4%,jungle
+kennen,53.04%,0.6%,1.4%,middle
+kennen,46.84%,< 0.1%,1.4%,adc
+kennen,47.92%,0.1%,1.4%,support
+kha'zix,44.91%,< 0.1%,3.1%,top
+kha'zix,48.46%,7.0%,3.1%,jungle
+kha'zix,49.23%,< 0.1%,3.1%,middle
+kha'zix,35.71%,< 0.1%,3.1%,adc
+kha'zix,33.33%,< 0.1%,3.1%,support
+kindred,44.44%,< 0.1%,0.7%,top
+kindred,49.83%,2.8%,0.7%,jungle
+kindred,44.11%,< 0.1%,0.7%,middle
+kindred,47.09%,0.1%,0.7%,adc
+kindred,36.17%,< 0.1%,0.7%,support
+kled,50.91%,1.6%,0.6%,top
+kled,46.88%,0.1%,0.6%,jungle
+kled,53.73%,0.1%,0.6%,middle
+kled,51.29%,< 0.1%,0.6%,adc
+kled,42.86%,< 0.1%,0.6%,support
+kog'maw,49.1%,< 0.1%,0.1%,top
+kog'maw,48.66%,< 0.1%,0.1%,jungle
+kog'maw,47.06%,0.1%,0.1%,middle
+kog'maw,51.78%,1.1%,0.1%,adc
+kog'maw,40.69%,< 0.1%,0.1%,support
+leblanc,47.73%,0.1%,9.9%,top
+leblanc,31.42%,< 0.1%,9.9%,jungle
+leblanc,46.75%,4.2%,9.9%,middle
+leblanc,39.68%,< 0.1%,9.9%,adc
+leblanc,45.41%,0.1%,9.9%,support
+lee sin,42.48%,0.1%,14.2%,top
+lee sin,47.57%,17.8%,14.2%,jungle
+lee sin,43.87%,0.1%,14.2%,middle
+lee sin,35.88%,< 0.1%,14.2%,adc
+lee sin,40.14%,0.1%,14.2%,support
+leona,41.51%,< 0.1%,6.7%,top
+leona,43.59%,< 0.1%,6.7%,jungle
+leona,34.79%,< 0.1%,6.7%,middle
+leona,40.64%,< 0.1%,6.7%,adc
+leona,50.04%,8.6%,6.7%,support
+lissandra,47.94%,0.2%,0.7%,top
+lissandra,34.46%,< 0.1%,0.7%,jungle
+lissandra,47.5%,1.6%,0.7%,middle
+lissandra,42.28%,< 0.1%,0.7%,adc
+lissandra,43.17%,< 0.1%,0.7%,support
+lucian,47.43%,0.2%,2.6%,top
+lucian,39.14%,< 0.1%,2.6%,jungle
+lucian,46.1%,0.4%,2.6%,middle
+lucian,47.14%,9.5%,2.6%,adc
+lucian,37.86%,< 0.1%,2.6%,support
+lulu,48.6%,0.1%,2.7%,top
+lulu,38.75%,< 0.1%,2.7%,jungle
+lulu,53.14%,0.2%,2.7%,middle
+lulu,42.26%,< 0.1%,2.7%,adc
+lulu,49.65%,6.7%,2.7%,support
+lux,49.16%,0.1%,19.8%,top
+lux,40.41%,< 0.1%,19.8%,jungle
+lux,53.23%,7.6%,19.8%,middle
+lux,49.26%,0.2%,19.8%,adc
+lux,52.33%,21.7%,19.8%,support
+malphite,49.34%,3.2%,0.9%,top
+malphite,46.53%,0.5%,0.9%,jungle
+malphite,50.35%,0.8%,0.9%,middle
+malphite,44.37%,< 0.1%,0.9%,adc
+malphite,47.27%,1.2%,0.9%,support
+malzahar,53.11%,0.4%,9.0%,top
+malzahar,39.9%,< 0.1%,9.0%,jungle
+malzahar,53.87%,5.5%,9.0%,middle
+malzahar,52.01%,< 0.1%,9.0%,adc
+malzahar,46.22%,0.2%,9.0%,support
+maokai,50.53%,0.9%,0.1%,top
+maokai,50.73%,0.3%,0.1%,jungle
+maokai,49.07%,< 0.1%,0.1%,middle
+maokai,41.79%,< 0.1%,0.1%,adc
+maokai,50.44%,0.4%,0.1%,support
+master yi,45.79%,0.6%,28.9%,top
+master yi,52.42%,12.6%,28.9%,jungle
+master yi,49.25%,0.2%,28.9%,middle
+master yi,44.2%,< 0.1%,28.9%,adc
+master yi,35.47%,< 0.1%,28.9%,support
+miss fortune,45.23%,< 0.1%,3.2%,top
+miss fortune,34.19%,< 0.1%,3.2%,jungle
+miss fortune,47.06%,0.1%,3.2%,middle
+miss fortune,51.1%,11.3%,3.2%,adc
+miss fortune,44.87%,0.5%,3.2%,support
+mordekaiser,53.48%,11.5%,63.5%,top
+mordekaiser,46.56%,2.0%,63.5%,jungle
+mordekaiser,54.3%,3.1%,63.5%,middle
+mordekaiser,48.26%,0.1%,63.5%,adc
+mordekaiser,40.49%,0.3%,63.5%,support
+morgana,51.09%,0.1%,38.0%,top
+morgana,48.99%,0.1%,38.0%,jungle
+morgana,52.57%,2.4%,38.0%,middle
+morgana,49.26%,0.1%,38.0%,adc
+morgana,50.04%,14.6%,38.0%,support
+nami,41.18%,< 0.1%,1.0%,top
+nami,32.98%,< 0.1%,1.0%,jungle
+nami,43.13%,< 0.1%,1.0%,middle
+nami,41.12%,< 0.1%,1.0%,adc
+nami,52.52%,8.3%,1.0%,support
+nasus,51.89%,8.0%,8.9%,top
+nasus,46.52%,0.4%,8.9%,jungle
+nasus,50.57%,0.2%,8.9%,middle
+nasus,45.59%,< 0.1%,8.9%,adc
+nasus,38.71%,< 0.1%,8.9%,support
+nautilus,49.75%,0.4%,17.8%,top
+nautilus,47.44%,0.3%,17.8%,jungle
+nautilus,48.13%,0.1%,17.8%,middle
+nautilus,43.21%,< 0.1%,17.8%,adc
+nautilus,50.72%,10.7%,17.8%,support
+neeko,51.84%,1.4%,3.1%,top
+neeko,46.46%,0.1%,3.1%,jungle
+neeko,51.26%,4.1%,3.1%,middle
+neeko,50.45%,0.3%,3.1%,adc
+neeko,48.95%,1.3%,3.1%,support
+nidalee,45.14%,0.1%,0.4%,top
+nidalee,46.41%,2.2%,0.4%,jungle
+nidalee,43.58%,0.1%,0.4%,middle
+nidalee,37.21%,< 0.1%,0.4%,adc
+nidalee,43.55%,0.1%,0.4%,support
+nocturne,52.48%,0.2%,1.2%,top
+nocturne,50.18%,3.2%,1.2%,jungle
+nocturne,53.46%,0.3%,1.2%,middle
+nocturne,37.59%,< 0.1%,1.2%,adc
+nocturne,38.85%,< 0.1%,1.2%,support
+nunu,31.66%,< 0.1%,0.9%,top
+nunu,53.07%,3.3%,0.9%,jungle
+nunu,32.8%,< 0.1%,0.9%,middle
+nunu,20.87%,< 0.1%,0.9%,adc
+nunu,34.25%,0.1%,0.9%,support
+olaf,47.42%,1.8%,0.9%,top
+olaf,49.67%,1.5%,0.9%,jungle
+olaf,48.16%,< 0.1%,0.9%,middle
+olaf,35.78%,< 0.1%,0.9%,adc
+olaf,40.21%,< 0.1%,0.9%,support
+orianna,51.22%,< 0.1%,0.5%,top
+orianna,39.85%,< 0.1%,0.5%,jungle
+orianna,49.85%,4.0%,0.5%,middle
+orianna,48.89%,< 0.1%,0.5%,adc
+orianna,44.56%,0.1%,0.5%,support
+ornn,49.64%,2.1%,0.3%,top
+ornn,42.97%,0.1%,0.3%,jungle
+ornn,47.53%,0.1%,0.3%,middle
+ornn,47.12%,< 0.1%,0.3%,adc
+ornn,45.17%,0.2%,0.3%,support
+pantheon,49.5%,2.5%,2.9%,top
+pantheon,48.6%,2.1%,2.9%,jungle
+pantheon,50.86%,0.5%,2.9%,middle
+pantheon,45.15%,< 0.1%,2.9%,adc
+pantheon,46.63%,0.2%,2.9%,support
+poppy,49.23%,2.0%,0.4%,top
+poppy,49.63%,0.6%,0.4%,jungle
+poppy,48.09%,< 0.1%,0.4%,middle
+poppy,38.26%,< 0.1%,0.4%,adc
+poppy,46.82%,0.3%,0.4%,support
+pyke,46.71%,0.5%,22.8%,top
+pyke,36.61%,0.2%,22.8%,jungle
+pyke,49.51%,0.8%,22.8%,middle
+pyke,46.9%,0.1%,22.8%,adc
+pyke,48.78%,10.5%,22.8%,support
+qiyana,38.13%,1.3%,12.3%,top
+qiyana,36.28%,2.6%,12.3%,jungle
+qiyana,40.38%,3.3%,12.3%,middle
+qiyana,37.24%,0.1%,12.3%,adc
+qiyana,35.68%,0.2%,12.3%,support
+quinn,51.41%,1.6%,0.7%,top
+quinn,44.71%,0.2%,0.7%,jungle
+quinn,52.29%,0.2%,0.7%,middle
+quinn,50.35%,0.3%,0.7%,adc
+quinn,41.87%,< 0.1%,0.7%,support
+rakan,45.17%,< 0.1%,0.5%,top
+rakan,45.26%,< 0.1%,0.5%,jungle
+rakan,50.63%,< 0.1%,0.5%,middle
+rakan,40.12%,< 0.1%,0.5%,adc
+rakan,50.54%,5.2%,0.5%,support
+rammus,47.49%,0.1%,12.8%,top
+rammus,51.37%,4.6%,12.8%,jungle
+rammus,40.7%,< 0.1%,12.8%,middle
+rammus,45.09%,< 0.1%,12.8%,adc
+rammus,40.86%,< 0.1%,12.8%,support
+rek'sai,46.91%,< 0.1%,1.1%,top
+rek'sai,48.63%,1.8%,1.1%,jungle
+rek'sai,46.28%,< 0.1%,1.1%,middle
+rek'sai,13.33%,< 0.1%,1.1%,adc
+rek'sai,32.35%,< 0.1%,1.1%,support
+renekton,49.14%,7.9%,6.8%,top
+renekton,40.29%,< 0.1%,6.8%,jungle
+renekton,52.14%,0.4%,6.8%,middle
+renekton,43.79%,< 0.1%,6.8%,adc
+renekton,36.72%,< 0.1%,6.8%,support
+rengar,50.1%,1.5%,3.0%,top
+rengar,47.55%,4.5%,3.0%,jungle
+rengar,39.33%,< 0.1%,3.0%,middle
+rengar,49.95%,< 0.1%,3.0%,adc
+rengar,39.6%,< 0.1%,3.0%,support
+riven,49.3%,7.8%,4.2%,top
+riven,45.06%,0.3%,4.2%,jungle
+riven,49.38%,0.5%,4.2%,middle
+riven,41.41%,< 0.1%,4.2%,adc
+riven,39.36%,< 0.1%,4.2%,support
+rumble,51.36%,1.8%,0.5%,top
+rumble,50.09%,0.1%,0.5%,jungle
+rumble,54.86%,0.7%,0.5%,middle
+rumble,45.43%,< 0.1%,0.5%,adc
+rumble,47.48%,< 0.1%,0.5%,support
+ryze,46.39%,3.2%,2.3%,top
+ryze,39.46%,0.1%,2.3%,jungle
+ryze,46.37%,5.3%,2.3%,middle
+ryze,45.06%,0.1%,2.3%,adc
+ryze,36.53%,< 0.1%,2.3%,support
+sejuani,47.05%,0.1%,4.8%,top
+sejuani,48.92%,6.9%,4.8%,jungle
+sejuani,47.1%,< 0.1%,4.8%,middle
+sejuani,35.44%,< 0.1%,4.8%,adc
+sejuani,42.7%,< 0.1%,4.8%,support
+shaco,46.93%,0.3%,2.7%,top
+shaco,49.99%,3.7%,2.7%,jungle
+shaco,48.49%,< 0.1%,2.7%,middle
+shaco,41.95%,< 0.1%,2.7%,adc
+shaco,51.17%,0.4%,2.7%,support
+shen,50.49%,2.9%,0.2%,top
+shen,47.71%,0.2%,0.2%,jungle
+shen,50.77%,< 0.1%,0.2%,middle
+shen,44.07%,< 0.1%,0.2%,adc
+shen,47.4%,0.8%,0.2%,support
+shyvana,48.19%,0.3%,0.4%,top
+shyvana,50.75%,2.2%,0.4%,jungle
+shyvana,48.98%,< 0.1%,0.4%,middle
+shyvana,33.02%,< 0.1%,0.4%,adc
+shyvana,36.02%,< 0.1%,0.4%,support
+singed,51.58%,1.4%,0.2%,top
+singed,39.46%,< 0.1%,0.2%,jungle
+singed,52.06%,< 0.1%,0.2%,middle
+singed,41.38%,< 0.1%,0.2%,adc
+singed,39.13%,< 0.1%,0.2%,support
+sion,51.03%,1.4%,0.2%,top
+sion,48.18%,0.1%,0.2%,jungle
+sion,50.32%,0.1%,0.2%,middle
+sion,45.05%,< 0.1%,0.2%,adc
+sion,48.58%,0.2%,0.2%,support
+sivir,43.51%,< 0.1%,12.7%,top
+sivir,26.32%,< 0.1%,12.7%,jungle
+sivir,48.93%,0.1%,12.7%,middle
+sivir,52.12%,14.0%,12.7%,adc
+sivir,32.71%,< 0.1%,12.7%,support
+skarner,49.84%,< 0.1%,0.2%,top
+skarner,50.51%,1.0%,0.2%,jungle
+skarner,41.25%,< 0.1%,0.2%,middle
+skarner,39.13%,< 0.1%,0.2%,adc
+skarner,44.07%,< 0.1%,0.2%,support
+sona,48.31%,< 0.1%,1.1%,top
+sona,29.41%,< 0.1%,1.1%,jungle
+sona,47.24%,0.1%,1.1%,middle
+sona,52.84%,0.2%,1.1%,adc
+sona,51.46%,6.9%,1.1%,support
+soraka,44.76%,0.1%,1.3%,top
+soraka,22.74%,< 0.1%,1.3%,jungle
+soraka,44.13%,0.1%,1.3%,middle
+soraka,39.56%,< 0.1%,1.3%,adc
+soraka,50.62%,6.0%,1.3%,support
+swain,49.22%,0.8%,0.4%,top
+swain,33.92%,< 0.1%,0.4%,jungle
+swain,51.53%,1.2%,0.4%,middle
+swain,51.8%,0.1%,0.4%,adc
+swain,49.21%,0.2%,0.4%,support
+sylas,43.51%,1.5%,7.3%,top
+sylas,47.2%,1.3%,7.3%,jungle
+sylas,45.43%,4.2%,7.3%,middle
+sylas,40.15%,< 0.1%,7.3%,adc
+sylas,41.7%,0.1%,7.3%,support
+syndra,48.05%,< 0.1%,0.5%,top
+syndra,35.29%,< 0.1%,0.5%,jungle
+syndra,48.98%,2.3%,0.5%,middle
+syndra,45.22%,< 0.1%,0.5%,adc
+syndra,44.08%,< 0.1%,0.5%,support
+tahm kench,51.95%,5.8%,18.6%,top
+tahm kench,46.25%,0.1%,18.6%,jungle
+tahm kench,52.17%,0.1%,18.6%,middle
+tahm kench,56.15%,0.1%,18.6%,adc
+tahm kench,47.63%,1.2%,18.6%,support
+taliyah,46.09%,< 0.1%,0.2%,top
+taliyah,49.49%,0.7%,0.2%,jungle
+taliyah,50.08%,0.7%,0.2%,middle
+taliyah,50.02%,< 0.1%,0.2%,adc
+taliyah,50.18%,0.1%,0.2%,support
+talon,48.12%,0.2%,6.2%,top
+talon,37.47%,0.1%,6.2%,jungle
+talon,49.6%,7.4%,6.2%,middle
+talon,44.59%,< 0.1%,6.2%,adc
+talon,38.87%,< 0.1%,6.2%,support
+taric,48.62%,0.1%,0.3%,top
+taric,47.7%,< 0.1%,0.3%,jungle
+taric,63.68%,< 0.1%,0.3%,middle
+taric,54.81%,0.1%,0.3%,adc
+taric,51.42%,2.0%,0.3%,support
+teemo,51.76%,7.3%,9.5%,top
+teemo,42.04%,0.2%,9.5%,jungle
+teemo,51.21%,0.5%,9.5%,middle
+teemo,46.79%,0.2%,9.5%,adc
+teemo,47.62%,0.7%,9.5%,support
+thresh,39.02%,< 0.1%,7.4%,top
+thresh,28.48%,< 0.1%,7.4%,jungle
+thresh,35.87%,< 0.1%,7.4%,middle
+thresh,36.37%,< 0.1%,7.4%,adc
+thresh,49.07%,17.0%,7.4%,support
+tristana,47.53%,0.1%,2.3%,top
+tristana,41%,< 0.1%,2.3%,jungle
+tristana,48.89%,0.2%,2.3%,middle
+tristana,49.87%,10.7%,2.3%,adc
+tristana,31.53%,< 0.1%,2.3%,support
+trundle,48.08%,0.8%,0.3%,top
+trundle,50.95%,1.4%,0.3%,jungle
+trundle,44.94%,< 0.1%,0.3%,middle
+trundle,37.74%,< 0.1%,0.3%,adc
+trundle,43.94%,0.1%,0.3%,support
+tryndamere,51.46%,6.0%,4.5%,top
+tryndamere,50.02%,1.2%,4.5%,jungle
+tryndamere,52.02%,0.2%,4.5%,middle
+tryndamere,41.97%,< 0.1%,4.5%,adc
+tryndamere,39.86%,< 0.1%,4.5%,support
+twisted fate,46.35%,0.2%,0.4%,top
+twisted fate,42.97%,0.1%,0.4%,jungle
+twisted fate,49.21%,3.9%,0.4%,middle
+twisted fate,43.46%,0.1%,0.4%,adc
+twisted fate,42%,0.1%,0.4%,support
+twitch,45.5%,< 0.1%,1.5%,top
+twitch,48.44%,2.3%,1.5%,jungle
+twitch,49.89%,< 0.1%,1.5%,middle
+twitch,51.46%,3.8%,1.5%,adc
+twitch,39.07%,< 0.1%,1.5%,support
+udyr,43.87%,0.3%,2.9%,top
+udyr,51.76%,4.6%,2.9%,jungle
+udyr,39.24%,< 0.1%,2.9%,middle
+udyr,32.04%,< 0.1%,2.9%,adc
+udyr,37.62%,< 0.1%,2.9%,support
+urgot,52.69%,4.9%,5.4%,top
+urgot,49.52%,0.2%,5.4%,jungle
+urgot,52.17%,0.1%,5.4%,middle
+urgot,45.77%,< 0.1%,5.4%,adc
+urgot,40.45%,< 0.1%,5.4%,support
+varus,43.48%,< 0.1%,0.5%,top
+varus,36.88%,< 0.1%,0.5%,jungle
+varus,45.23%,0.1%,0.5%,middle
+varus,48.11%,4.6%,0.5%,adc
+varus,37.73%,< 0.1%,0.5%,support
+vayne,49.53%,2.5%,18.2%,top
+vayne,43.38%,0.1%,18.2%,jungle
+vayne,48.31%,0.2%,18.2%,middle
+vayne,49.97%,14.8%,18.2%,adc
+vayne,34.26%,< 0.1%,18.2%,support
+veigar,50.52%,0.3%,4.6%,top
+veigar,34.28%,< 0.1%,4.6%,jungle
+veigar,52.15%,7.8%,4.6%,middle
+veigar,51.38%,0.3%,4.6%,adc
+veigar,48.81%,1.8%,4.6%,support
+vel'koz,52.63%,0.1%,1.4%,top
+vel'koz,43.21%,< 0.1%,1.4%,jungle
+vel'koz,52.94%,3.0%,1.4%,middle
+vel'koz,52.98%,0.1%,1.4%,adc
+vel'koz,51.08%,3.0%,1.4%,support
+vi,45.63%,0.1%,2.6%,top
+vi,53.16%,7.6%,2.6%,jungle
+vi,46.29%,< 0.1%,2.6%,middle
+vi,31.25%,< 0.1%,2.6%,adc
+vi,41.34%,< 0.1%,2.6%,support
+viktor,48.07%,0.3%,0.2%,top
+viktor,33.8%,< 0.1%,0.2%,jungle
+viktor,49.85%,1.5%,0.2%,middle
+viktor,47.01%,< 0.1%,0.2%,adc
+viktor,42.42%,< 0.1%,0.2%,support
+vladimir,47.71%,3.5%,10.2%,top
+vladimir,25.78%,< 0.1%,10.2%,jungle
+vladimir,49.95%,4.8%,10.2%,middle
+vladimir,46.7%,0.1%,10.2%,adc
+vladimir,36.22%,< 0.1%,10.2%,support
+volibear,52.67%,1.9%,1.1%,top
+volibear,54.2%,3.0%,1.1%,jungle
+volibear,51.81%,< 0.1%,1.1%,middle
+volibear,47.65%,< 0.1%,1.1%,adc
+volibear,49.66%,0.3%,1.1%,support
+warwick,47.11%,0.2%,1.8%,top
+warwick,51.15%,6.1%,1.8%,jungle
+warwick,38.17%,< 0.1%,1.8%,middle
+warwick,30.3%,< 0.1%,1.8%,adc
+warwick,38.5%,< 0.1%,1.8%,support
+wukong,51.06%,1.0%,0.4%,top
+wukong,49.46%,1.5%,0.4%,jungle
+wukong,54.91%,0.5%,0.4%,middle
+wukong,47.84%,< 0.1%,0.4%,adc
+wukong,45.37%,< 0.1%,0.4%,support
+xayah,46.02%,< 0.1%,1.3%,top
+xayah,35.68%,< 0.1%,1.3%,jungle
+xayah,45.75%,< 0.1%,1.3%,middle
+xayah,50.65%,7.3%,1.3%,adc
+xayah,36.78%,< 0.1%,1.3%,support
+xerath,48.92%,< 0.1%,1.4%,top
+xerath,30.91%,< 0.1%,1.4%,jungle
+xerath,51.19%,3.7%,1.4%,middle
+xerath,47.85%,0.1%,1.4%,adc
+xerath,51.06%,1.8%,1.4%,support
+xin zhao,42.17%,0.2%,1.9%,top
+xin zhao,49.99%,6.0%,1.9%,jungle
+xin zhao,44.66%,0.2%,1.9%,middle
+xin zhao,43.1%,< 0.1%,1.9%,adc
+xin zhao,36.06%,< 0.1%,1.9%,support
+yasuo,48.59%,5.1%,47.4%,top
+yasuo,40.22%,0.2%,47.4%,jungle
+yasuo,49.34%,16.5%,47.4%,middle
+yasuo,50.88%,1.2%,47.4%,adc
+yasuo,40.39%,0.1%,47.4%,support
+yorick,53.53%,2.9%,2.0%,top
+yorick,40.45%,< 0.1%,2.0%,jungle
+yorick,51.17%,< 0.1%,2.0%,middle
+yorick,46.77%,< 0.1%,2.0%,adc
+yorick,42.25%,< 0.1%,2.0%,support
+yuumi,26.27%,< 0.1%,27.9%,top
+yuumi,20.19%,< 0.1%,27.9%,jungle
+yuumi,29.5%,< 0.1%,27.9%,middle
+yuumi,40.42%,< 0.1%,27.9%,adc
+yuumi,47.68%,10.9%,27.9%,support
+zac,48.59%,0.1%,0.6%,top
+zac,51.27%,2.7%,0.6%,jungle
+zac,47.96%,< 0.1%,0.6%,middle
+zac,40%,< 0.1%,0.6%,adc
+zac,48.67%,0.1%,0.6%,support
+zed,49.85%,0.5%,49.8%,top
+zed,38.47%,< 0.1%,49.8%,jungle
+zed,50.56%,13.9%,49.8%,middle
+zed,45.4%,< 0.1%,49.8%,adc
+zed,39.91%,0.1%,49.8%,support
+ziggs,47.06%,0.1%,0.2%,top
+ziggs,30.52%,< 0.1%,0.2%,jungle
+ziggs,50.92%,1.9%,0.2%,middle
+ziggs,51.67%,0.1%,0.2%,adc
+ziggs,48.41%,0.2%,0.2%,support
+zilean,53.6%,0.1%,1.1%,top
+zilean,39.11%,< 0.1%,1.1%,jungle
+zilean,54.03%,0.7%,1.1%,middle
+zilean,49.06%,< 0.1%,1.1%,adc
+zilean,51.74%,2.8%,1.1%,support
+zoe,49.03%,< 0.1%,2.7%,top
+zoe,30.14%,< 0.1%,2.7%,jungle
+zoe,48.13%,3.1%,2.7%,middle
+zoe,46.17%,< 0.1%,2.7%,adc
+zoe,43.45%,0.2%,2.7%,support
+zyra,50.37%,< 0.1%,3.1%,top
+zyra,47.65%,< 0.1%,3.1%,jungle
+zyra,51.4%,0.3%,3.1%,middle
+zyra,48.74%,< 0.1%,3.1%,adc
+zyra,52.27%,4.4%,3.1%,support

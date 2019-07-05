@@ -6,6 +6,7 @@ import re
 
 from seleniumrequests import Chrome
 from selenium.webdriver.chrome.options import Options
+from pandas import DataFrame
 
 def openDriver():
     global driver
@@ -21,6 +22,7 @@ openDriver()
 df = pd.read_csv("champion_names.csv")
 arr = np.array(df)
 champion_names = [x[0].lower() for x in arr]
+champion_names.insert(0, 'Aatrox')
 
 roles = ('top', 'jungle', 'middle', 'adc', 'support')
 
@@ -43,17 +45,39 @@ def get_stats(soup):
 
     return  [win_rate[0], pick[0], ban[0], matches]    
 
-to_save = []
+#to_save = []
+#
+#for name in champion_names:
+#    for role in roles:
+#        url = "https://u.gg/lol/champions/" + name + "/build?role=" + role + "&rank=overall"
+#        driver.get(url)
+#        html_source = driver.page_source
+#        soup = BeautifulSoup(html_source)
+#        stats = get_stats(soup)
+#        stats.insert(0, name)
+#        to_save.append(stats)
 
-for name in champion_names:
+champion_stats = {'Name': [], 'Win rate':[], 'Pick rate':[], 'Ban rate': [], 'Role':[]}    
+
+for champion_name in champion_names:
     for role in roles:
-        url = "https://u.gg/lol/champions/" + name + "/build?role=" + role + "&rank=overall"
+        print(champion_name)
+        print(role)
+        url = "https://u.gg/lol/champions/"+champion_name.lower()+"/build?rank=overall&role="+role
         driver.get(url)
-        html_source = driver.page_source
-        soup = BeautifulSoup(html_source)
-        stats = get_stats(soup)
-        stats.insert(0, name)
-        to_save.append(stats)
+        stats = driver.find_elements_by_class_name("value")
+        champion_stats['Name'].append(champion_name.lower())
+        champion_stats['Win rate'].append(stats[0].text)
+        champion_stats['Pick rate'].append(stats[2].text)
+        champion_stats['Ban rate'].append(stats[3].text)
+        champion_stats['Role'].append(role)
+        print(stats[0].text)
+        print(stats[2].text)
+        print(stats[3].text)
+
+DF = DataFrame(champion_stats, columns=['Name', 'Win rate', 'Pick rate', 'Ban rate', 'Role'])
+DF.to_csv('single_champion_stats.csv', index=False, header=True)
+
         
         
         
