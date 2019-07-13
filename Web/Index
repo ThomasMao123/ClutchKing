@@ -27,6 +27,39 @@
         margin: 25% auto;
       }
 
+
+      .hide{
+            display: none;
+        }
+        .c1{
+            position: fixed;
+            top:0;
+            bottom: 0;
+            left:0;
+            right: 0;
+            background: rgba(0,0,0,.5);
+            z-index: 2;
+        }
+        .c2{
+            background-color: black;
+            opacity: 0.8;
+            position: fixed;
+            width: 400px;
+            height: 500px;
+            top:50%;
+            left: 50%;
+            z-index: 3;
+            margin-top: -150px;
+            margin-left: -200px;
+            border-radius: 30px;
+        }
+        .c2 img{
+            margin-top: 10%;
+        }
+        #modal p {
+          margin-left:80px;
+        }
+
     </style>
 
 
@@ -55,7 +88,7 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <button type="button" class="btn btn-dark">SIGN UP</button>
+          <button type="button" class="btn btn-dark" onclick = "Show()">SIGN UP</button>
           <button type="button" class="btn btn-secondary">LOG IN</button>
         </form>
       </div>
@@ -66,11 +99,39 @@
         <input type="text" class="form-control" placeholder="Search for Summoners/Champions">
           <div class="input-group-append">
             <button class="btn btn-secondary" type="button">
+              <a>
+                <img src="./411/search_button.png" width = 25 height = 25>
+              </a>
               <i class="fa fa-search"></i>
             </button>
           </div>
       </div>
     </div>
+
+    <div id="shade" class="c1 hide"></div>
+    <div id="modal" class="c2 hide">
+      <img src="./411/symbol.png">
+      <p>Email：<input type="text" /></p>
+      <p>Password：<input type="password" /></p>
+      <p2>
+        <input type="button" value="确定">
+        <input type="button" value="取消" onclick="Hide();">
+      </p2>
+    </div>
+     
+    <script>
+        function Show(){
+            document.getElementById('shade').classList.remove('hide');
+            document.getElementById('modal').classList.remove('hide');
+        }
+         function Hide(){
+            document.getElementById('shade').classList.add('hide');
+            document.getElementById('modal').classList.add('hide');
+        }
+    </script>
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
