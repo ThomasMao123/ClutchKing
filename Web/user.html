@@ -11,9 +11,6 @@
     <style>
 	body{
         background-image: url("./images/user_background.jpg");
-        width: 100%;
-        height: 100%;
-        background-size: cover;
       }
      .navbar-collapse{
         font-size: 200%;
@@ -22,25 +19,55 @@
         padding-left: 30px;
         padding-right: 30px;
       }
+      .wrap{
+        height: 500px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15%;
+        background-color: rgba(255,255,255,0.5);
+      }
       .main {
         font-size: 40px;
         width: 50%;
         margin-left: 35%;
         margin-top: 10%;
-
       }
-      .main img{
-      	margin-left: 30%;
+      .section{
+        text-align: center;
       }
-      .main p1{
-      	margin-left: 30%;
+      .container{
+        display:table;
+      }
+      .container img{
+        width: 20%;
+        height: 20%;
+      }
+      .left-half{
+        width: 50%;
+        left: 25%;
+        top: 40%;
+        position: absolute;
+      }
+      .right-half{
+        width: 50%;
+        right: 10%;
+        top: 40%;
+        position: absolute;
+      }
+      .right-half p{
+        font-size: 20px;
+        margin-top: 6%;
+        margin-left: 10%;
       }
       .main table{
       	background-color: white;
       	opacity: 0.5;
       	text-align: center;
+        font-size: 100%;
       }
-
+      .main table, th, td{
+        border:1px solid black;
+      }
     </style>
 
 
@@ -79,35 +106,34 @@
         </form>
       </div>
     </nav>
-
-    <div class="main">
-    	<p><img src="./images/profile.png"></p>
-    	<p1>ID</p1>
-    	<table>
-    		<tr>
-    			<th>Rank</th>
-    			<th>Average KDA</th>
-    			<th>Win Rate</th>
-    		</tr>
-    		<tr>
-    			<td>xxx</td>
-    			<td>xxx</td>
-    			<td>xxx</td>
-    		</tr>
-    	</table>
-    	<p2>My Frequently Played Champions</p2>
-    	<table>
-    		<tr>
-    			<th>xxx</th>
-    			<th>xxx</th>
-    			<th>xxx</th>
-    		</tr>
-    		<tr>
-    			<td><img src=""></td>
-    			<td><img src=""></td>
-    			<td><img src=""></td>
-    		</tr>
-    	</table>
+    <div class="wrap">
+      <div class="main">
+        <section class="container">
+          <div class="left-half">
+          	<p><img src="./images/profile.png"></p>
+          	<p1>Name</p1>
+          </div>
+            <div class="right-half">
+          	<table>
+          		<tr>
+          			<th> Rank </th>
+          			<th> Win Rate </th>
+                <th> Wins </th>
+                <th> Losses </th>
+          		</tr>
+          		<tr>
+          			<td>xxx</td>
+                <td>xxx</td>
+                <td>xxx</td>
+          			<td>xxx</td>
+          		</tr>
+          	</table>
+            <p>
+              <a href="#" >Haven't Update Recently? Update Now!</a>
+            </p>
+          </div>
+        </section>
+      </div>
     </div>
 
      <!-- Optional JavaScript -->
