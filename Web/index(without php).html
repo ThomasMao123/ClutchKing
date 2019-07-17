@@ -10,24 +10,19 @@
 
     <style>
       body{
-        background-image: url("./411/1-background.png");
+        background-image: url("./images/1-background.png");
       }
-
       .navbar-collapse{
         font-size: 200%;
       }
-
       .navbar-nav > li{
         padding-left: 30px;
         padding-right: 30px;
       }
-
       .main {
         width: 50%;
         margin: 25% auto;
       }
-
-
       .hide{
             display: none;
         }
@@ -57,9 +52,56 @@
             margin-top: 10%;
         }
         #modal p {
-          margin-left:80px;
+          margin-top: 10%;
+          margin-left: 15%;
+          height: 20px;
         }
-
+        #modal p2{
+          margin-left: 16%;
+        }
+        #modal p3{
+          margin-left: 15%;
+        }
+        .link {
+        background-color: black;
+        border: none;
+        color: orange;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .c3{
+            background-color: black;
+            opacity: 0.8;
+            position: fixed;
+            width: 400px;
+            height: 470px;
+            top:50%;
+            left: 50%;
+            z-index: 3;
+            margin-top: -150px;
+            margin-left: -200px;
+            border-radius: 30px;
+        }
+    .c3 img{
+      margin-top: 10%;
+    }
+    #loginadds p {
+          margin-top: 10%;
+          margin-left: 15%;
+          height: 20px;
+        }
+    #loginadds p2{
+          margin-left: 16%;
+        }
+        #loginadds p3{
+      margin-left: 24%;
+        }
+        #loginadds p4{
+          margin-left: 15%;
+        }
     </style>
 
 
@@ -69,7 +111,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">
-        <img src="./411/symbol.png" width = 363 height = 63 alt = "">
+        <img src="./images/symbol.png" width = 363 height = 63 alt = "">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -81,15 +123,15 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Champoins </a>
+            <a class="nav-link" href="#">Champions </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact Us </a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <button type="button" class="btn btn-dark" onclick = "Show()">SIGN UP</button>
-          <button type="button" class="btn btn-secondary">LOG IN</button>
+          <button type="button" class="btn btn-dark" onclick = "HideLog();Show();">SIGN UP</button>
+          <button type="button" class="btn btn-secondary" onclick="Hide();ShowLog();">LOG IN</button>
         </form>
       </div>
     </nav>
@@ -100,7 +142,7 @@
           <div class="input-group-append">
             <button class="btn btn-secondary" type="button">
               <a>
-                <img src="./411/search_button.png" width = 25 height = 25>
+                <img src="./images/search_button.png" width = 25 height = 25>
               </a>
               <i class="fa fa-search"></i>
             </button>
@@ -110,13 +152,35 @@
 
     <div id="shade" class="c1 hide"></div>
     <div id="modal" class="c2 hide">
-      <img src="./411/symbol.png">
-      <p>Email：<input type="text" /></p>
-      <p>Password：<input type="password" /></p>
+      <img src="./images/symbol.png">
+      <p>
+        <input type="text" name="name" placeholder="Email Address"style="background-color:transparent; border-style: solid; border-top-width: 0px;border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px; border-color: white; width: 280px;" /></p>
+      <p><input type="password" name="password" placeholder="Set A Password" style="background-color:transparent; border-style: solid; border-top-width: 0px;border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px; border-color: white; width: 280px; color:white;" /></p>
+      <p><input type="text"name="summoner" placeholder="Summoner Name" style="background-color:transparent; border-style: solid; border-top-width: 0px;border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px; border-color: white; width: 280px; color:white;"  /></p>
       <p2>
-        <input type="button" value="确定">
-        <input type="button" value="取消" onclick="Hide();">
+        <input type="button" value="Log In" style="margin-top: 30px; width: 120px;">
+        <input type="button" value="Cancel" onclick="Hide();" style="margin-left: 30px; width: 120px;">
       </p2>
+      <p3>
+        <button type="button" class = "link" onclick="Hide();ShowLog();" style="margin-top: 30px;">Already Have an Account? Log In Now</button>
+      </p3>
+    </div>
+
+    <div id="loginadds" class="c3 hide">
+      <img src="./images/symbol.png">
+      <p>
+        <input type="text" name="name" placeholder="Enter Your Email Address"style="background-color:transparent; border-style: solid; border-top-width: 0px;border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px; border-color: white; width: 280px; color:white;" /></p>
+      <p><input type="password" name="password" placeholder="Enter Your Password" style="background-color:transparent; border-style: solid; border-top-width: 0px;border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px; border-color: white; width: 280px; color:white;" /></p>
+      <p2>
+        <input type="button" value="Log In" style="margin-top: 30px; width: 120px;">
+        <input type="button" value="Cancel" onclick="HideLog();" style="margin-left: 30px; width: 120px;">
+      </p2>
+      <p3>
+        <button type="button" class = "link" style="margin-top: 20px;">Forgot Your Password?</button>
+      </p3>
+      <p4>
+        <button type="button" class = "link" onclick="HideLog();Show();">Haven't Registered Yet? Sign Up Today</button>
+      </p4>
     </div>
      
     <script>
@@ -127,6 +191,14 @@
          function Hide(){
             document.getElementById('shade').classList.add('hide');
             document.getElementById('modal').classList.add('hide');
+        }
+        function ShowLog(){
+            document.getElementById('shade').classList.remove('hide');
+            document.getElementById('loginadds').classList.remove('hide');
+        }
+        function HideLog(){
+            document.getElementById('shade').classList.add('hide');
+            document.getElementById('loginadds').classList.add('hide');
         }
     </script>
 
