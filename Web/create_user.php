@@ -2,7 +2,7 @@
     $email = filter_input(INPUT_POST, 'email');
     $password = filter_input(INPUT_POST, 'password');
     $summoner_name = filter_input(INPUT_POST, 'summoner_name');
-    $home_url = "http://clutchkingtest.web.illinois.edu/";
+    $home_url = "http://clutchkingtest.web.illinois.edu/user_stats.html?summoner_name=".$summoner_name;
     if (!empty($email) && !empty($password) && !empty($summoner_name)) {
         $host = "localhost";
         $dbusername = "clutchkingtest_root";

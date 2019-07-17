@@ -8,6 +8,8 @@
         $dbpassword = "clutchking.gg";
         $dbname = "clutchkingtest_users";
 
+        
+
         $connector = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 
         if (mysqli_connect_error()) {
@@ -20,7 +22,9 @@
             if ($resultCheck > 0) {
                 $row = mysqli_fetch_assoc($search_result);
                 if ($row['Password'] == $login_password) {
-                    echo "Login successfully!";
+                    //echo "Login successfully!";
+                    $home_url = "http://clutchkingtest.web.illinois.edu/user_stats.html?summoner_name=".$row['SummonerName'];
+                    header("Location: $home_url");
                 } else {
                     echo "Password is not correct!";
                 }

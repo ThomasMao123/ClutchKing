@@ -1,0 +1,21 @@
+<table>
+    <tr>
+        <th>Debug</th>
+    </tr>
+</table>
+
+<script>
+    var ajax = new XMLHttpRequest();
+    var method = "GET";
+    var url = "search_summoner_stats.php?summoner_name=123"
+    var async = true;
+
+    ajax.open(method, url, async);
+    ajax.send();
+    ajax.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var data = JSON.parse(this.responseText);
+            console.log(data);
+        }
+    }
+</script>
