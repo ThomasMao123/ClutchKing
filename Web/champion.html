@@ -1,0 +1,24 @@
+<table>
+    <tr>
+        <th>Debug</th>
+    </tr>
+</table>
+    
+<script>
+    var urlParams = new URLSearchParams(window.location.search);
+    var champion_name = urlParams.get("champion_name");
+
+    var ajax = new XMLHttpRequest();
+    var method = "GET";
+    var url = "search_champion_stats.php?champion_name=" + champion_name;
+    var async = true;
+    
+    ajax.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var data = JSON.parse(this.responseText);
+            console.log(data);
+        }
+    }
+    ajax.open(method, url, async);
+    ajax.send();
+</script>

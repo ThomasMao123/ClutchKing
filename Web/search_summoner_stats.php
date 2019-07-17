@@ -7,7 +7,7 @@
     
     $connector = new mysqli ($host, $dbusername, $dbpassword, $dbname);
     
-    $result = mysqli_query($connector, "SELECT * FROM users");
+    $result = mysqli_query($connector, "SELECT * FROM summoner_stats WHERE SummonerName = '$summoner_name'");
     
     $data = array();
 
