@@ -113,7 +113,7 @@
           <div class="left-half">
           	<p><img src="./images/profile.png"></p>
           	<p1 id="summoner_name">Name</p1><br>
-            <a href="#" style="font-size:20px;">Wrong Account?</a>
+            <a href="#" style="font-size:20px;" onclick="DeleteAccount()">Wrong Account?</a>
           </div>
             <div class="right-half">
           	<table>
@@ -131,7 +131,7 @@
           		</tr>
           	</table>
             <p>
-              <input id="UpdateButton" type="button" value="Update" style="border-radius:10px; background-color:white; opacity:0.5;border-color: #f7d786;border-width:thick">
+              <input id="UpdateButton" type="button" value="Update" style="border-radius:10px; background-color:white; opacity:0.5;border-color: #f7d786;border-width:thick" onclick="UpdateStats()">
               <input type="button" value="Start Simulation" style="border-radius:10px; margin-left: 20px; background-color:white; opacity:0.5; border-color: #f7d786; border-width:thick">
             </p>
           </div>
@@ -168,6 +168,41 @@
             document.getElementById("Losses").innerHTML = data[0].Losses;
           }
         }
+    </script>
+    
+    <script>
+      function DeleteAccount() {
+        var urlParams = new URLSearchParams(window.location.search);
+        var summoner_name = urlParams.get("summoner_name");
+        
+        
+      }
+
+      function UpdateStats() {
+        var urlParams = new URLSearchParams(window.location.search);
+        var summoner_name = urlParams.get("summoner_name");
+        console.log(summoner_name);
+
+        var ajax = new XMLHttpRequest();
+        var method = "GET";
+        var url = "update_summoner_info.php?summoner_name=" + summoner_name;
+        var async = true;
+        
+        ajax.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            var data = JSON.parse(this.responseText);
+            
+            document.getElementById("Tier").innerHTML = data[0].Tier;
+            document.getElementById("summoner_name").innerHTML = data[0].SummonerName;
+            document.getElementById("Rank").innerHTML = data[0].Rank;
+            document.getElementById("Wins").innerHTML = data[0].Wins;
+            document.getElementById("Losses").innerHTML = data[0].Losses;
+          }
+        }
+        ajax.open(method, url, async);
+        ajax.send();
+        
+      }
     </script>
 
 </html>

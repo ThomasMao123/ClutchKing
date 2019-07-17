@@ -20,7 +20,7 @@
             if ($resultCheck > 0) {
                 echo "The user has been created";
             } else {
-                $api_key = "RGAPI-b82c6478-8396-44d5-92a8-1d8e3850d981";
+                $api_key = "RGAPI-c59065ce-0b1e-4dea-b65d-0c721422d4ed";
                 $riot_getId_api = "https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/".$summoner_name."?api_key=".$api_key;
                 //Get encrypted id
                 $summoner_json = json_decode(file_get_contents($riot_getId_api), true);
