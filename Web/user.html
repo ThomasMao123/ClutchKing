@@ -174,8 +174,27 @@
       function DeleteAccount() {
         var urlParams = new URLSearchParams(window.location.search);
         var summoner_name = urlParams.get("summoner_name");
+        console.log(summoner_name);
+
+        var ajax = new XMLHttpRequest();
+        var method = "GET";
+        var url = "delete_account.php?summoner_name=" + summoner_name;
+        var async = true;
         
-        
+        ajax.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            var data = this.response;
+            console.log(data);
+            if (data == "done") {
+              window.location = "http://clutchkingtest.web.illinois.edu";
+              alert("Your account is successfully deleted.");
+            } else {
+              alert("There is an error when deleting the account");
+            }
+          }
+        }
+        ajax.open(method, url, async);
+        ajax.send();
       }
 
       function UpdateStats() {

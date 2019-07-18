@@ -5,13 +5,23 @@
     $dbname = "clutchkingtest_users";
 
     $home_url = "http://clutchkingtest.web.illinois.edu";
-    $summoner_name = $_POST["summoner_name"];
+    $summoner_name = $_GET["summoner_name"];
 
-    $sql = "DELETE FROM summoner_stats WHERE SummonerName = '$summoner_name';";
-
+    $sql_delete_summoner = "DELETE FROM summoner_stats WHERE SummonerName = '$summoner_name';";
+    $sql_delete_user = "DELETE FROM users WHERE SummonerName =  '$summoner_name';";
     
     $connector = new mysqli ($host, $dbusername, $dbpassword, $dbname);
-    mysqli_query($connector, $sql);
+    
+    if ($connector->query($sql_delete_summoner)) {
+        if ($connector->query($sql_delete_user)) {
+            echo "done";
+        } else {
+            echo "error";
+        }
+    } else {
+        echo "error";
+    }
+
 
     
 

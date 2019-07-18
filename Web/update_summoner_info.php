@@ -19,7 +19,7 @@
 
         $riot_getStats_api = "https://na1.api.riotgames.com/lol/league/v4/entries/by-summoner/".$summoner_id."?api_key=".$api_key;
         $summoner_match_stats = json_decode(file_get_contents($riot_getStats_api), true);
-            
+        
         $tier = $summoner_match_stats[0]['tier'];
         $rank = $summoner_match_stats[0]['rank'];
         $wins = $summoner_match_stats[0]['wins'];
@@ -31,7 +31,7 @@
             
         $select_summoner_sql = "SELECT * FROM summoner_stats WHERE SummonerName = '$summoner_name';";
 
-        if ($connect->query($update_summoner_sql)) {
+        if ($connector->query($update_summoner_sql)) {
             $result = mysqli_query($connector, $select_summoner_sql);
             
             $data = array();
