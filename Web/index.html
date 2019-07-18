@@ -216,13 +216,17 @@
           if (this.readyState == 4 && this.status == 200) {
             var data = JSON.parse(this.responseText);
             console.log(data);
-            var message = "Win rate:" + data[0].WinRate + "\nPick rate:" + data[0].PickRate + "\nBan rate:" + data[0].BanRate + "\nRole:" + data[0].Role;
+            var message = "Win rate:" + data[0].WinRate + "\nPick rate:" + data[0].PickRate + "\nBan rate:" + data[0].BanRate + "\nRole:" + data[0].Role
+                          + "\nBest counter:\n" + "Name: " + data[1].Name + "\nWin rate:" + data[1].WinRate + "\nPick rate:" + data[1].PickRate + "\nBan rate:" + data[1].BanRate
+                          + "\nRole:" + data[1].Role + "\nBest against:\n" + "Name: " + data[2].Name + "\nWin rate:" + data[2].WinRate + "\nPick rate:" + data[2].PickRate + "\nBan rate:" + data[2].BanRate
+                          + "\nRole:" + data[2].Role;
             alert(message);
           }
         }
         ajax.open(method, url, async);
         ajax.send();
       }
+
     </script>
 
 
