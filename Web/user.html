@@ -44,20 +44,19 @@
       }
       .left-half{
         width: 50%;
-        left: 25%;
+        left: 20%;
         top: 40%;
         position: absolute;
       }
       .right-half{
         width: 50%;
-        right: 10%;
+        right: 5%;
         top: 40%;
         position: absolute;
       }
       .right-half p{
         font-size: 100%;
         margin-top: 7%;
-        margin-left: 2%;
       }
       .main table{
       	background-color: white;
@@ -87,13 +86,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Champions </a>
+            <a class="nav-link" href="champion.php">Champions </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us </a>
+            <a class="nav-link" href="mailto:clutchking.gg@gmail.com">Contact Us </a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -101,7 +100,7 @@
 	  		  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Welcome, xxx</button>
 	  		 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 	    		<a class="dropdown-item" href="#">Profile</a>
-	    		<a class="dropdown-item" href="#">Log Out</a>
+	    		<a class="dropdown-item" href="#" onclick="LogOut()">Log Out</a>
 	  		</div>
 		</div>
         </form>
@@ -132,7 +131,16 @@
           	</table>
             <p>
               <input id="UpdateButton" type="button" value="Update" style="border-radius:10px; background-color:white; opacity:0.5;border-color: #f7d786;border-width:thick" onclick="UpdateStats()">
-              <input type="button" value="Start Simulation" style="border-radius:10px; margin-left: 20px; background-color:white; opacity:0.5; border-color: #f7d786; border-width:thick">
+              <input id="SearchTeammateButton" type="button" value="Search for a teammate" style="border-radius:10px; background-color:white; opacity:0.5;border-color: #f7d786;border-width:thick" onclick="SearchForTeammate()">
+              <div class="input-group-append">
+                <input id="selected_champion_name" type="text" placeholder="Start Simulation" style="border-radius:10px; background-color:white; opacity:0.5; border-color: #f7d786; border-width:thick;">
+                <button id="teamformation" class="btn btn-secondary" type="button" onclick="TeamFormation()">
+                  <a>
+                    <img src="./images/search_button.png" width = 10px height = 10px>
+                  </a>
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
             </p>
           </div>
         </section>
@@ -149,7 +157,7 @@
       <script>
         var urlParams = new URLSearchParams(window.location.search);
         var summoner_name = urlParams.get("summoner_name");
-
+        document.getElementById("dropdownMenuButton").innerHTML = "Welcome, " + summoner_name;
         var ajax = new XMLHttpRequest();
         var method = "GET";
         var url = "search_summoner_stats.php?summoner_name=" + summoner_name;
@@ -222,6 +230,52 @@
         ajax.send();
         
       }
+      
+      function SearchForTeammate() {
+          var urlParams = new URLSearchParams(window.location.search);
+          var summoner_name = urlParams.get("summoner_name");
+         
+          
+          var ajax = new XMLHttpRequest();
+          var method = "GET";
+          var url = "search_for_teammate.php?summoner_name=" + summoner_name;
+          var async= true;
+          
+          ajax.onreadystatechange = function() {
+              if (this.readyState == 4 && this.status == 200) {
+                  var data = this.response;
+                  console.log(data);
+                  alert(data);
+              }
+          }
+          
+          ajax.open(method, url, async);
+          ajax.send();
+          
+      }
+      function TeamFormation() {
+            var selected_champion_name = document.getElementById("selected_champion_name").value;
+
+            var ajax = new XMLHttpRequest();
+            var method = "GET";
+            var url = "team_formation.php?selected_champion_name=" + selected_champion_name;
+            var async= true;
+    
+            ajax.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var data = this.response;
+                    console.log(data);
+                    alert(data);
+                }
+            }
+    
+            ajax.open(method, url, async);
+            ajax.send();
+          
+        }
+        function LogOut() {
+            window.location = "http://clutchkingtest.web.illinois.edu";
+        }
     </script>
 
 </html>

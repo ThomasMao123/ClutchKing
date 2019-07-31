@@ -4,9 +4,6 @@ Created on Wed Jul 17 21:14:53 2019
 
 @author: 13015
 """
-import heapq
-import itertools
-import operator
 import math
 import random
 def smallerDimVal(first=None, second=None, curDim=0):
@@ -140,17 +137,17 @@ def create(point_list=None, dimension=None, axis=0):
     
     return KDNode(loc, left, right, axis=axis, dimension=dimension);
 
-point_list=[]
-for i in range(0,10000):
-    point=[]
-    for j in range(0, 3):
-        point.append(random.uniform(0,50))
-    point_list.append(point)
-    
-kdtree=create(point_list, dimension=3, axis=0)
-print(findNearestNeighbor([7,5,4], current=kdtree, currentDim=0))
-
-
+#point_list=[]
+#for i in range(0,100000):
+#    point=[]
+#    for j in range(0, 3):
+#        point.append(random.randint(0,50))
+#    point_list.append(point)
+#    
+#kdtree=create(point_list, dimension=3, axis=0)
+#print(findNearestNeighbor([7,5,4], current=kdtree, currentDim=0))
+#
+#
 
 
 

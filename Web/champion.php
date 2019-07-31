@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <style>
-      body{
-        background-image: url("./images/1-background.png");
+    body{
+        background-image: url("./images/2-background.jpg");
       }
       .navbar-collapse{
         font-size: 200%;
@@ -19,11 +19,7 @@
         padding-left: 30px;
         padding-right: 30px;
       }
-      .main {
-        width: 50%;
-        margin: 25% auto;
-      }
-      .hide{
+            .hide{
             display: none;
         }
         .c1{
@@ -40,7 +36,7 @@
             opacity: 0.8;
             position: fixed;
             width: 400px;
-            height: 700px;
+            height: 500px;
             top:50%;
             left: 50%;
             z-index: 3;
@@ -74,8 +70,8 @@
         text-decoration: none;
         display: inline-block;
         font-size: 14px;
-        }
-        .c3{
+    }
+    .c3{
             background-color: black;
             opacity: 0.8;
             position: fixed;
@@ -88,31 +84,58 @@
             margin-left: -200px;
             border-radius: 30px;
         }
-        .c3 img{
-            margin-top: 10%;
-        }
-        #loginadds p {
+    .c3 img{
+      margin-top: 10%;
+    }
+    #loginadds p {
           margin-top: 10%;
           margin-left: 15%;
           height: 20px;
         }
-        #loginadds p2{
-              margin-left: 16%;
+    #loginadds p2{
+          margin-left: 16%;
         }
         #loginadds p3{
-          margin-left: 24%;
+      margin-left: 24%;
         }
         #loginadds p4{
-              margin-left: 15%;
+          margin-left: 15%;
         }
-        </style>
-
-
-    <title>Index</title>
+      .wrap{
+        height: 80%;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15%;
+        background-color: rgba(255,255,255,0.5);
+      }
+      .content{
+          text-align:center;
+          margin-left:20%;
+          font-size:30px;
+      }
+      #menu{
+          margin-left:30%;
+          margin-top:10%;
+          
+      }
+      #menu li{
+            margin-left:20px;
+            margin-right:20px;
+            list-style-image: none;
+            list-style-type: none;
+            border-right-width: 1px;
+            border-right-style: solid;
+            border-right-color: #000000;
+            float: left;
+            font-size:40px;
+        }
+    
+        
+    </style>
+    <title>Champions</title>
   </head>
-
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
         <img src="./images/symbol.png" width = 363 height = 63 alt = "">
       </a>
@@ -122,11 +145,11 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="champion.php">Champions </a>
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Champions <span class="sr-only">(current)</span> </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="mailto:clutchking.gg@gmail.com">Contact Us </a>
@@ -138,22 +161,41 @@
         </form>
       </div>
     </nav>
-
-    <div class="main">
-      <div class="input-group">
-        <input id="InputChampionName" type="text" class="form-control" placeholder="Search for Champions">
-          <div class="input-group-append">
-            <button class="btn btn-secondary" type="button" onclick="ShowChampionStats()">
-              <a>
-                <img src="./images/search_button.png" width = 25 height = 25>
-              </a>
-              <i class="fa fa-search"></i>
-            </button>
-          </div>
-      </div>
+    <ul id = "menu">
+        <li><a>All</a></li>
+        <li><a href="top.php" style="color:white;">Top</a></li>
+        <li><a href="jg.php" style="color:white;">Jg</a></li>
+        <li><a href="mid.php" style="color:white;">Mid</a></li>
+        <li><a href="bot.php" class="last" style="color:white;">Bot</a></li>
+        <li><a href="sup.php" style="color:white;">Sup</a></li>
+    </ul>
+<div class="wrap">
+    <div class="content">
+    <?php
+    		$servername = "localhost";
+        	$username = "clutchkingtest_root";
+        	$password = "clutchking.gg";
+        	$dbname="clutchkingtest_users";
+        	
+    		$conn=new mysqli($servername, $username, $password, $dbname);
+    		
+    		$sql="SELECT * FROM single_champion_stats s WHERE winrate = (SELECT MAX(winrate) FROM single_champion_stats WHERE s.name = name) GROUP BY name ORDER BY winrate DESC";
+        	$result=$conn->query($sql);
+        	
+        	echo "<table><tr><th>Name</th><th>Win Rate</th><th>Pick Rate</th><th>Ban Rate</th><th>Role</th></tr>";
+    		while($row = $result->fetch_assoc()){
+    			echo "<tr><td>".$row["name"]."</td><td>".$row["winrate"]."</td><td>".$row["pick"]."</td><td>".$row["ban"]."</td><td>".$row["role"]."</td></tr>";
+    		}
+    		echo "</table>";
+    ?>
+         <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </div>
-
-    <div id="shade" class="c1 hide"></div>
+</div>
+<div id="shade" class="c1 hide"></div>
     <div id="modal" class="c2 hide">
       <img src="./images/symbol.png">
       <form method="post" action="create_user.php">
@@ -346,7 +388,6 @@
         <button type="button" class = "link" onclick="HideLog();Show();">Haven't Registered Yet? Sign Up Today</button>
       </p4>
     </div>
-     
     <script>
         function Show(){
             document.getElementById('shade').classList.remove('hide');
@@ -364,75 +405,6 @@
             document.getElementById('shade').classList.add('hide');
             document.getElementById('loginadds').classList.add('hide');
         }
-
-        function ShowChampionStats() { 
-        var champion_name = document.getElementById("InputChampionName").value;
-        //window.location = "http://clutchkingtest.web.illinois.edu/champion.html?champion_name=" + champion_name;
-      
-        var ajax = new XMLHttpRequest();
-        var method = "GET";
-        var url = "search_champion_stats.php?champion_name=" + champion_name;
-        var async = true;
-    
-        ajax.onreadystatechange = function() {
-          if (this.readyState == 4 && this.status == 200) {
-            var data = JSON.parse(this.responseText);
-            console.log(data);
-            var message = "Win rate:" + data[0].winrate + "\nPick rate:" + data[0].pick + "\nBan rate:" + data[0].ban + "\nRole:" + data[0].role
-                          + "\n\nBest counter:\n" + "Name: " + data[1].name + "\nWin rate:" + data[1].winrate + "\nPick rate:" + data[1].pick + "\nBan rate:" + data[1].ban
-                          + "\nRole:" + data[1].role + "\n\nBest against:\n" + "Name: " + data[2].name + "\nWin rate:" + data[2].winrate + "\nPick rate:" + data[2].pick + "\nBan rate:" + data[2].ban
-                          + "\nRole:" + data[2].role;
-            alert(message);
-          }
-        }
-        ajax.open(method, url, async);
-        ajax.send();
-      }
-
-    </script>
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <!--自定义尺寸
-     <script type="text/javascript">
-      var winWidth = 0;
-      var winHeight = 0;
-      function findDimensions() { //函数：获取尺寸
-          //获取窗口宽度
-          if (window.innerWidth) {
-               winWidth = window.innerWidth;
-           }
-           else if ((document.body) && (document.body.clientWidth)) {
-               winWidth = document.body.clientWidth;
-          }
-           //获取窗口高度
-           if (window.innerHeight) {
-              winHeight = window.innerHeight;
-           }
-           else if ((document.body) && (document.body.clientHeight)) {
-              winHeight = document.body.clientHeight;
-          }
-          //通过深入Document内部对body进行检测，获取窗口大小
-          if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth) {
-               winHeight = document.documentElement.clientHeight-100;
-               winWidth = document.documentElement.clientWidth;
-           }            
-           //设置div的具体宽度=窗口的宽度的%
-           if (document.getElementById("middle")) {
-              document.getElementById("middle").style.height = winHeight + "px";
-           }
-       }
-      findDimensions();
-      window.onresize = findDimensions;
-    </script>
-  -->
-
-  </body>
+        </script>
+      </body>
 </html>
